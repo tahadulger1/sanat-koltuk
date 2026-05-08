@@ -21,7 +21,7 @@ function FacebookIcon({ className }) {
   )
 }
 
-const WHATSAPP_URL = 'https://wa.me/905054387744?text=Merhaba%2C%20bilgi%20almak%20istiyorum.'
+const WHATSAPP_URL = 'https://wa.me/905054387744?text=Merhabalar%2C%20fiyat%20bilgisi%20almak%20istiyorum.'
 
 const quickLinks = [
   { label: 'Ana Sayfa', href: '/' },

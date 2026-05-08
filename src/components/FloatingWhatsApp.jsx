@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import WhatsAppIcon from './icons/WhatsAppIcon'
 import { useState, useEffect } from 'react'
 
-const WHATSAPP_URL = 'https://wa.me/905054387744?text=Merhaba%2C%20fiyat%20bilgisi%20almak%20istiyorum.'
+const WHATSAPP_URL = 'https://wa.me/905054387744?text=Merhabalar%2C%20fiyat%20bilgisi%20almak%20istiyorum.'
 
 export default function FloatingWhatsApp() {
   const [isVisible, setIsVisible] = useState(false)
@@ -40,7 +40,7 @@ export default function FloatingWhatsApp() {
           </a>
 
           {/* Pulse ring */}
-          <div className="absolute inset-0 sm:hidden">
+          <div className="absolute inset-0 sm:hidden pointer-events-none">
             <span className="absolute inset-0 rounded-full bg-whatsapp/20 animate-ping" />
           </div>
         </motion.div>

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { ArrowDown, MapPin, Eye, Palette, Wrench } from 'lucide-react'
 import WhatsAppIcon from './icons/WhatsAppIcon'
 
-const WHATSAPP_URL = 'https://wa.me/905054387744?text=Merhaba%2C%20koltuk%20foto%C4%9Fraf%C4%B1%20g%C3%B6ndermek%20istiyorum.'
+const WHATSAPP_URL = 'https://wa.me/905054387744?text=Merhabalar%2C%20fiyat%20bilgisi%20almak%20istiyorum.'
 
 const trustBadges = [
   { icon: MapPin, label: 'Atakum / Samsun' },
