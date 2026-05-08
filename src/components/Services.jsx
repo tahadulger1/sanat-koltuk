@@ -90,7 +90,7 @@ export default function Services() {
                   </div>
                   <h3 className="font-heading text-base font-bold text-walnut-800 mb-2 flex items-center justify-between">
                     {service.title}
-                    <ArrowRight className="w-4 h-4 text-gold-400 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all" />
+                    <ArrowRight className="w-4 h-4 text-gold-500 opacity-60 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300" />
                   </h3>
                   <p className="text-sm text-walnut-400 leading-relaxed">
                     {service.description}

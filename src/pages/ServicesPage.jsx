@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import { SectionWrapper, SectionTitle, AnimatedItem } from '../components/SectionWrapper'
+import { ArrowRight } from 'lucide-react'
 
 const servicesList = [
   { id: 'koltuk-doseme', title: 'Koltuk Döşeme' },
@@ -38,8 +39,9 @@ export default function ServicesPage() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h3 className="font-heading text-xl font-bold text-walnut-800 text-center">
+                    <h3 className="font-heading text-xl font-bold text-walnut-800 flex items-center justify-between">
                       {service.title}
+                      <ArrowRight className="w-5 h-5 text-gold-500 opacity-60 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300" />
                     </h3>
                   </div>
                 </div>
